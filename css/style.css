@@ -1,0 +1,243 @@
+.primary-col {
+    color: rgb(15,135,0);
+}
+
+.secondary-col {
+    color: rgb(46, 46, 46);
+}
+
+.grey-col {
+    color: rgb(91,91,91);
+}
+
+.header {
+    background-color: rgb(254,250,241);
+    /* height: 100vh; */
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+.logo {
+    width: 50%;
+}
+
+.shop-now-btn {
+    border-radius: 30px;
+}
+
+#btn-shop-now {
+    text-transform: capitalize;
+    color: black;
+}
+
+.head-content {
+    margin-top: 150px;
+}
+
+.header-content-inner {
+    text-align: center;
+}
+
+.btn-shape {
+    padding: 13px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.view-btn {
+    background: linear-gradient(to bottom,rgb(20,175,0),rgb(10,91,0));
+    color: white;
+
+}
+
+.buy-btn {
+    margin-left: 30px;
+    border: 3px solid rgb(17,151,0);
+    color: black;
+}
+
+.features {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.features h3 {
+    font-size: 40px;
+}
+
+.feature-wrap {
+    padding: 50px;
+}
+
+.parital-heading {
+    padding-left: 120px;
+}
+
+.partial-inner {
+    display: flex;
+    justify-content: start;
+    width: 75%;
+    /* align-items:flex-end; */
+}
+
+.partial-block {
+    display: flex;
+    justify-content: start;
+    align-items:flex-end;
+}
+
+.partial-img {
+    width: 50%;
+}
+
+.partial-block {
+    position: relative;
+}
+
+.partial-img {
+    position: relative;
+}
+.partial-content {
+    position: absolute;
+    left: 50%;
+    bottom: 11%
+}
+
+.four-block-wrap {
+    padding: 17px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    background-color: rgb(228,228,228);
+}
+
+.pet-care-icon {
+    width: 70%;
+}
+
+.pet-care-title h4 {
+    font-size: 30px;
+}
+
+.pet-care-content p {
+    font-size: 11px;
+}
+
+
+.pet-services-title {
+    font-size: 40px;
+}
+
+.pet-services-content {
+    width: 55%;
+    font-size: 18px;
+}
+
+.service-wrap {
+    width: 80%;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+}
+
+.service-wrap-hover {
+    background-color: rgb(18,161,0);
+}
+
+.service-wrap-title {
+    font-size: 30px;
+}
+
+.service-wrap-title-hover {
+    color: white;
+}
+
+.service-wrap-content p {
+    width: 62%;
+    font-size: 11px;
+}
+
+.service-wrap-content-hover {
+    color: white;
+}
+
+.give-a-call {
+    color: rgb(171,1,7);
+}
+
+.partial-wrap-inner {
+    margin-top: 60px;
+}
+
+.partial-sec-content {
+    font-size: 20px;
+}
+
+.list-wrap {
+    list-style-type: none;
+}
+
+.list-item {
+    position: relative;
+    padding: 5px 3px;
+    font-size: 20px;
+}
+
+.list-item:before {
+    position: absolute;
+    content:url('./../images/tick.png');
+    left: -8%;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.facebook,
+.youtube,
+.instagram {
+    color: rgb(18,161,0);
+}
+
+.foot-wrap-title {
+    width: 70%;
+}
+
+.foot-wrap-title h4 {
+    color: rgb(171,1,7);
+}
+
+.foot-inner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.map,
+.clock,
+.phone {
+    color: rgb(18,161,0);
+}
+
+.phone {
+    transform: rotate(90deg);
+}
+
+.mail {
+    width: 70%;
+    border-radius: 30px;
+}
+
+.subscribe {
+    width: 70%;
+    border-radius: 30px;
+    background-color: rgb(18,161,0);
+    color: white;
+}
+
+.copyright {
+    color: white;
+    background-color: rgb(4,27,1);
+}
